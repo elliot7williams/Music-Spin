@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E0E43A552E23AA1A009D4F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E43A3F2E23AA0E009D4F82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E43A462E23AA0E009D4F82;
+			remoteInfo = "Music Spin";
+		};
+		E0E43A5F2E23AA1A009D4F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E43A3F2E23AA0E009D4F82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E43A462E23AA0E009D4F82;
+			remoteInfo = "Music Spin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0E43A472E23AA0E009D4F82 /* Music Spin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Spin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E43A542E23AA1A009D4F82 /* Music SpinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music SpinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E43A5E2E23AA1A009D4F82 /* Music SpinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music SpinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E0E43A492E23AA0E009D4F82 /* Music Spin */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Music Spin";
+			sourceTree = "<group>";
+		};
+		E0E43A572E23AA1A009D4F82 /* Music SpinTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Music SpinTests";
+			sourceTree = "<group>";
+		};
+		E0E43A612E23AA1A009D4F82 /* Music SpinUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Music SpinUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0E43A442E23AA0E009D4F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E43A512E23AA1A009D4F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E43A5B2E23AA1A009D4F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0E43A3E2E23AA0E009D4F82 = {
+			isa = PBXGroup;
+			children = (
+				E0E43A492E23AA0E009D4F82 /* Music Spin */,
+				E0E43A572E23AA1A009D4F82 /* Music SpinTests */,
+				E0E43A612E23AA1A009D4F82 /* Music SpinUITests */,
+				E0E43A482E23AA0E009D4F82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0E43A482E23AA0E009D4F82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0E43A472E23AA0E009D4F82 /* Music Spin.app */,
+				E0E43A542E23AA1A009D4F82 /* Music SpinTests.xctest */,
+				E0E43A5E2E23AA1A009D4F82 /* Music SpinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0E43A462E23AA0E009D4F82 /* Music Spin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E43A682E23AA1A009D4F82 /* Build configuration list for PBXNativeTarget "Music Spin" */;
+			buildPhases = (
+				E0E43A432E23AA0E009D4F82 /* Sources */,
+				E0E43A442E23AA0E009D4F82 /* Frameworks */,
+				E0E43A452E23AA0E009D4F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E0E43A492E23AA0E009D4F82 /* Music Spin */,
+			);
+			name = "Music Spin";
+			packageProductDependencies = (
+			);
+			productName = "Music Spin";
+			productReference = E0E43A472E23AA0E009D4F82 /* Music Spin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0E43A532E23AA1A009D4F82 /* Music SpinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E43A6B2E23AA1A009D4F82 /* Build configuration list for PBXNativeTarget "Music SpinTests" */;
+			buildPhases = (
+				E0E43A502E23AA1A009D4F82 /* Sources */,
+				E0E43A512E23AA1A009D4F82 /* Frameworks */,
+				E0E43A522E23AA1A009D4F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E43A562E23AA1A009D4F82 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E0E43A572E23AA1A009D4F82 /* Music SpinTests */,
+			);
+			name = "Music SpinTests";
+			packageProductDependencies = (
+			);
+			productName = "Music SpinTests";
+			productReference = E0E43A542E23AA1A009D4F82 /* Music SpinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0E43A5D2E23AA1A009D4F82 /* Music SpinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E43A6E2E23AA1A009D4F82 /* Build configuration list for PBXNativeTarget "Music SpinUITests" */;
+			buildPhases = (
+				E0E43A5A2E23AA1A009D4F82 /* Sources */,
+				E0E43A5B2E23AA1A009D4F82 /* Frameworks */,
+				E0E43A5C2E23AA1A009D4F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E43A602E23AA1A009D4F82 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E0E43A612E23AA1A009D4F82 /* Music SpinUITests */,
+			);
+			name = "Music SpinUITests";
+			packageProductDependencies = (
+			);
+			productName = "Music SpinUITests";
+			productReference = E0E43A5E2E23AA1A009D4F82 /* Music SpinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0E43A3F2E23AA0E009D4F82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					E0E43A462E23AA0E009D4F82 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					E0E43A532E23AA1A009D4F82 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E0E43A462E23AA0E009D4F82;
+					};
+					E0E43A5D2E23AA1A009D4F82 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E0E43A462E23AA0E009D4F82;
+					};
+				};
+			};
+			buildConfigurationList = E0E43A422E23AA0E009D4F82 /* Build configuration list for PBXProject "Music Spin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0E43A3E2E23AA0E009D4F82;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E0E43A482E23AA0E009D4F82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0E43A462E23AA0E009D4F82 /* Music Spin */,
+				E0E43A532E23AA1A009D4F82 /* Music SpinTests */,
+				E0E43A5D2E23AA1A009D4F82 /* Music SpinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0E43A452E23AA0E009D4F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E43A522E23AA1A009D4F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E43A5C2E23AA1A009D4F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0E43A432E23AA0E009D4F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E43A502E23AA1A009D4F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E43A5A2E23AA1A009D4F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0E43A562E23AA1A009D4F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0E43A462E23AA0E009D4F82 /* Music Spin */;
+			targetProxy = E0E43A552E23AA1A009D4F82 /* PBXContainerItemProxy */;
+		};
+		E0E43A602E23AA1A009D4F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0E43A462E23AA0E009D4F82 /* Music Spin */;
+			targetProxy = E0E43A5F2E23AA1A009D4F82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E0E43A662E23AA1A009D4F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0E43A672E23AA1A009D4F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0E43A692E23AA1A009D4F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Music-Spin-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Music Spinner";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "You Need Access to Load Artwork Track Data";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Music-Spiner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0E43A6A2E23AA1A009D4F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Music-Spin-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Music Spinner";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "You Need Access to Load Artwork Track Data";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Music-Spiner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0E43A6C2E23AA1A009D4F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Music-SpinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music Spin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Music Spin";
+			};
+			name = Debug;
+		};
+		E0E43A6D2E23AA1A009D4F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Music-SpinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music Spin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Music Spin";
+			};
+			name = Release;
+		};
+		E0E43A6F2E23AA1A009D4F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Music-SpinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Music Spin";
+			};
+			name = Debug;
+		};
+		E0E43A702E23AA1A009D4F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Music-SpinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Music Spin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0E43A422E23AA0E009D4F82 /* Build configuration list for PBXProject "Music Spin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E43A662E23AA1A009D4F82 /* Debug */,
+				E0E43A672E23AA1A009D4F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E43A682E23AA1A009D4F82 /* Build configuration list for PBXNativeTarget "Music Spin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E43A692E23AA1A009D4F82 /* Debug */,
+				E0E43A6A2E23AA1A009D4F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E43A6B2E23AA1A009D4F82 /* Build configuration list for PBXNativeTarget "Music SpinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E43A6C2E23AA1A009D4F82 /* Debug */,
+				E0E43A6D2E23AA1A009D4F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E43A6E2E23AA1A009D4F82 /* Build configuration list for PBXNativeTarget "Music SpinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E43A6F2E23AA1A009D4F82 /* Debug */,
+				E0E43A702E23AA1A009D4F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0E43A3F2E23AA0E009D4F82 /* Project object */;
+}
